@@ -67,7 +67,7 @@ public class testingBezier : MonoBehaviour
 
             // The car is in the air for 0.1 of a second
             // if longer, land on ground
-            if (seconds > 0.15)
+            if (seconds >= 0.2)
             {
                 toggleSpline();
                 timer = 0;

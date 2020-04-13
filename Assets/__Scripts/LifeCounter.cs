@@ -1,7 +1,8 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.SceneManagement;
+using Utilities;
 public class LifeCounter : MonoBehaviour
 {
     // == private fields ==
@@ -40,14 +41,15 @@ public class LifeCounter : MonoBehaviour
     public void updateLives()
     {
         hit++;
-        if (lives.Count > 0)
+        if (hit<startingLives)
         {
             //lives.RemoveAt(0);
             Destroy(lives[hit-1].gameObject);
         }
-        if(lives.Count <= 0)
+        else
         {
             // load game Over scene
+            SceneManager.LoadSceneAsync(Names.GAMEOVER);
         }
     }
 }
