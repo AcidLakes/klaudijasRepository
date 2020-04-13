@@ -54,6 +54,7 @@ public class GameController : MonoBehaviour
     public void LoseOneLife()
     {
         remainingLives--;
+        UpdateScore();
     }
     public void AddOneLife()
     {
