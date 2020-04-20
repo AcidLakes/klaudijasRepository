@@ -25,11 +25,11 @@ CapsuleCollider:
   m_GameObject: {fileID: 728986310282365113}
   m_Material: {fileID: 0}
   m_IsTrigger: 1
-  m_Enabled: 1
-  m_Radius: 0.5
-  m_Height: 1
+  m_Enabled: 0
+  m_Radius: 0.2429924
+  m_Height: 0.4859848
   m_Direction: 1
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Center: {x: 0, y: -0.6954336, z: 0.2570076}
 --- !u!114 &6619266560236574362
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -42,7 +42,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2842f02650098214ca8e72878b2e5d01, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  obValue: 5
+--- !u!65 &5910935335940941085
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 728986310282365113}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.34575653, y: 0.79841423, z: 3.1467724}
+  m_Center: {x: 0.7137184, y: -0.100792885, z: -0.45354366}
 --- !u!1001 &729123874213576377
 PrefabInstance:
   m_ObjectHideFlags: 0

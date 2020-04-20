@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: AcidWater
+  m_Shader: {fileID: -6465566751694194690, guid: 4534c88d513eb0b49809f1437c7de7bd,
+    type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 2
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs: []
+    m_Floats:
+    - Vector1_1137A7C1: 0.1
+    - Vector1_42294264: 2
+    - Vector1_866768E4: 0.3
+    - Vector1_8CDBF458: 2
+    - Vector1_9FFED5E1: 50
+    - Vector1_CCE45EC1: 0.5
+    m_Colors:
+    - Basic_Acid_Lake: {r: 0.21150766, g: 0.9150943, b: 0.634473, a: 0}
+    - Color_23A22A89: {r: 0.344749, g: 0.09906581, b: 0.043588955, a: 0}
+    - Color_9E600A3E: {r: 0.3137255, g: 0.12941177, b: 0.03529412, a: 0}
+    - Vector2_36414FD6: {r: 0.25, g: 0, b: 0, a: 0}
