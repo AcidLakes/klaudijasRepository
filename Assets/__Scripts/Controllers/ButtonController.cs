@@ -1,34 +1,19 @@
-﻿/*using System.Collections;
+﻿/* Class enables the on screen icons functionality
+to work.
+Back icon - navigates to the main menu
+pause icon - pauses the game
+*/
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-// sceneManageent library - load, unload scenes
-using UnityEngine.SceneManagement;
-
-public class SceneController : MonoBehaviour
+public class ButtonController : MonoBehaviour
 {
-    // == onclick Events ==
-   public void Start_OnClick()
+    // Change game scene function
+    public void changeScene(string scenename)
     {
-        SceneManager.LoadSceneAsync(SceneNames.GAME_LEVEL);
+        // Takes in the scene name in which to navigate to
+        Application.LoadLevel (scenename);
     }
+}
 
-    public void GoToMainMenu()
-    {
-        SceneManager.LoadSceneAsync(SceneNames.OpeningScreen);
-    }
-/*
-    public void Options_OnClick()
-    {
-        SceneManager.LoadSceneAsync(SceneNames.OPTIONS_MENU,
-                                    LoadSceneMode.Additive);
-    }
-*/
-
-/*
-    public void OptionsBack_OnClick()
-    {
-        // this unloads the options menu
-        SceneManager.UnloadSceneAsync(SceneNames.OPTIONS_MENU);
-    }
-}*/

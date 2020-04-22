@@ -41,15 +41,40 @@ public class SceneController : MonoBehaviour
         SceneManager.LoadSceneAsync(SceneNames.LEVEL_3_COMPLETE);
 
     }
+    public void GoToNameEntry()
+    {
+        SceneManager.LoadSceneAsync(SceneNames.NAME_ENTRY);
+
+    }
+    public void GoToOpeningScene()
+    {
+        SceneManager.LoadSceneAsync(SceneNames.OPENING_SCENE);
+
+    }
 
     public void GoToWin()
     {
-        Debug.Log("Im here");
         SceneManager.LoadSceneAsync(SceneNames.WIN);
     }
     public void GoToHighScores()
     {
         SceneManager.LoadSceneAsync(SceneNames.HIGH_SCORES);
+
+    }
+
+    public void GoToPause1()
+    {
+        SceneManager.LoadSceneAsync(SceneNames.PAUSE_1);
+
+    }
+    public void GoToPause2()
+    {
+        SceneManager.LoadSceneAsync(SceneNames.PAUSE_2);
+
+    }
+    public void GoToPause3()
+    {
+        SceneManager.LoadSceneAsync(SceneNames.PAUSE_3);
 
     }
 }

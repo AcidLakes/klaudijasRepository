@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿// Character selection for level 3
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -61,7 +62,7 @@ public class CharacterSelection : MonoBehaviour
     public void Confirm()
     {
         PlayerPrefs.SetInt("CharacterSelected", index);
-        SceneManager.LoadScene("Level1");
+        SceneManager.LoadScene("Level3");
     }
 }
 

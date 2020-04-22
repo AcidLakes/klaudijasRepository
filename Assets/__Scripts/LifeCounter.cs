@@ -48,6 +48,8 @@ public class LifeCounter : MonoBehaviour
         }
         else
         {
+            PlayerPrefs.SetFloat("LevelScore", gc.Score);//PlayerPrefs.SetFloat("LevelScore", gc.Score / 10);
+            PlayerPrefs.SetInt("LevelLives", gc.RemainingLives);
             // load game Over scene
             SceneManager.LoadSceneAsync(Names.GAMEOVER);
         }

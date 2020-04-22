@@ -12,6 +12,8 @@ public class EndOfLevel : MonoBehaviour
     private GameController gc;
     private LifeCounter lc;
     private SceneNames sc;
+    //public float levScore;//level score - may not be of any use
+    //public int levLives;//level lives - may not be of any use
     // Start is called before the first frame update
     void Start()
     {
@@ -21,7 +23,10 @@ public class EndOfLevel : MonoBehaviour
 
     void OnTriggerEnter(Collider other)
     {
+        
         var player = other.GetComponent<Player>();
+        PlayerPrefs.SetFloat("LevelScore", gc.Score); //PlayerPrefs.SetFloat("LevelScore", gc.Score/10);
+        PlayerPrefs.SetInt("LevelLives", gc.RemainingLives);
 
         //Tag player as Player in the Inspector - click on tag dropdown and select Player
         if (player)
