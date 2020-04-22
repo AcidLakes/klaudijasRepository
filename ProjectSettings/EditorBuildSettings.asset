@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/__Scenes/OpeningScreen.unity
+    guid: 7db2e7bd5196688409e543896a3a5254
+  - enabled: 1
+    path: Assets/__Scenes/GameOver.unity
+    guid: 6e4591e9176ac094ebc316873877dd66
+  - enabled: 1
+    path: Assets/__Scenes/Help.unity
+    guid: e47b8d18011a30e4397fc35ebf674a0b
+  - enabled: 1
+    path: Assets/__Scenes/HighScores.unity
+    guid: 9768ac8c0c56b914b82edfea5e1acfee
+  - enabled: 1
+    path: Assets/__Scenes/L1Store.unity
+    guid: c55760e6606cbe040830b5e575cdf691
+  - enabled: 1
+    path: Assets/__Scenes/L2Store.unity
+    guid: 05d40e72da2623a48ab7f4173b34cd84
+  - enabled: 1
+    path: Assets/__Scenes/Level1.unity
+    guid: 419ca0a6a310edb469d5856c0f1f80b1
+  - enabled: 1
+    path: Assets/__Scenes/Level1Complete.unity
+    guid: 757bd58a1d00ca94d92c2bb2a74b3044
+  - enabled: 1
+    path: Assets/__Scenes/Level2.unity
+    guid: 86689b865f71d5d43b3f709e4028186f
+  - enabled: 1
+    path: Assets/__Scenes/Level2Complete.unity
+    guid: e39eb2be56911924cb2e2298c01b9d6c
+  - enabled: 1
+    path: Assets/__Scenes/Level3.unity
+    guid: 251ef5077c5ce184ca768954fc9aa720
+  - enabled: 1
+    path: Assets/__Scenes/Level3Complete.unity
+    guid: abe912da683399743acf2e4a1d3cf006
+  - enabled: 1
+    path: Assets/__Scenes/NameEntry.unity
+    guid: ddc6b805351ca0e4dbb9f6dc69db8e3b
+  - enabled: 1
+    path: Assets/__Scenes/Pause.unity
+    guid: c31fba0cdaf9d954092ad71ba2813ae2
+  - enabled: 1
+    path: Assets/__Scenes/Store.unity
+    guid: 389b7916baa1ae44f9e566f5f424a2bb
+  - enabled: 1
+    path: 
+    guid: 4eb2a240711a1ee40b977ff8e1970028
+  - enabled: 1
+    path: 
+    guid: e2ab55609da60904a86697ab646753d1
+  - enabled: 1
+    path: Assets/__Scenes/Win.unity
+    guid: 41a4959bc993bef4e8ee66e8b7466e8d
+  - enabled: 1
+    path: Assets/__Scenes/L1Pause.unity
+    guid: 3bd54c7b2e89d8741b9b2909647cfa0c
+  - enabled: 1
+    path: Assets/__Scenes/L2Pause.unity
+    guid: 5f983fc23be896845a00120cff8ee6a9
+  m_configObjects: {}
